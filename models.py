@@ -7,7 +7,7 @@ class ToDo(Base):
 
     id = Column(Integer, primary_key=True,index=True)
     title = Column(String)
-    description = Column(String(1000))
+    description = Column(String)
     priority = Column(Integer)
     completed = Column(Boolean,default=False)
     owner_id = Column(Integer,ForeignKey('users.id'))
