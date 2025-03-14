@@ -1,26 +1,41 @@
+/* Temel CSS - Geliştirilmiş Versiyon */
 
 body {
-  background: #fafafa;
-  color: #33333a;
-  padding-top: 70px;
+    background: #fafafa; /* Arkaplan rengi */
+    color: #333; /* Metin rengi */
+    padding-top: 70px; /* Üstten boşluk */
+    font-family: 'Arial', sans-serif; /* Yazı tipi */
 }
 
+/* Başlık Stilleri */
 h1, h2, h3, h4, h5, h6 {
-  color: #323232;
+    color: #323232; /* Başlık rengini ayarla */
+    font-weight: bold; /* Kalın yazı */
 }
 
+/* Özel Sınıflar */
 .main-color {
-  background-color: #f47f0a;
+    background-color: #f47f0a; /* Ana renk */
+    color: white; /* Yazı rengi beyaz */
+    padding: 20px; /* İç boşluk */
+    border-radius: 8px; /* Kenar yuvarlama */
 }
 
 .strike-through-td {
-    text-decoration: line-through;
+    text-decoration: none !important;
+
+
 }
 
-/* h1 {
-  color: red;
-} */
+/* Responsive Ayarlar */
+@media (max-width: 768px) {
+    body {
+        padding-top: 50px; /* Küçük ekranlar için üstten boşluk */
+    }
 
+    h1 {
+        font-size: 1.5rem; /* Küçük ekranlarda başlık boyutu */
+    }
+}
 
-
-
+/* Daha Fazla Özelleştirme Eklenebilir... */
