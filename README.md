@@ -1,0 +1,2 @@
+**Todo List application built with the integration of AI**
+The AI app helps users to manage their tasks efficiently, with the added benefit of AI-generated task descriptions that make managing tasks even easier. This application leverages machine learning to automatically generate task descriptions based on user input, enhancing productivity and reducing the time spent organizing and categorizing tasks.
